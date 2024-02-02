@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Write a Console Application program to check if the given 10 number inputs are even or odd.
+//Prompt the user to enter the numbers, and display whether it's even or odd.
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
