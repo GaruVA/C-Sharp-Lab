@@ -1,6 +1,6 @@
 ﻿// Create a C# console application. Consider a scenario where you are designing a system to manage employee information.
 // Design a class name "Employee" with the following properties and methods.
-
+//
 //				EMPLOYEE CLASS		
 //				Properties:		
 //					– employeeID (int)
@@ -9,7 +9,7 @@
 //				Methods:			
 //					- Employee()				
 //					- DisplayEmployeeInfo()
-
+//
 // a. Create a instance of the "Employee" class, representing an employee with an ID of 101, full name "John Doe" and a salary of 50000.
 // b. Access and display the employee ID using the read-only property.
 // c. Update the full name of the employee using the read-write property.
