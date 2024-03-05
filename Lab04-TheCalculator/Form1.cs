@@ -99,20 +99,28 @@ namespace Lab04_TheCalculator
                     case 1:
                         lblExpression.Text = $"{num1} + {num2} = ";
                         lblResult.Text = $"{num1 + num2}";
+                        num1 = 0;
+                        num2 = 0;
                         break;
                     case 2:
                         lblExpression.Text = $"{num1} - {num2} = ";
                         lblResult.Text = $"{num1 - num2}";
+                        num1 = 0;
+                        num2 = 0;
                         break;
                     case 3:
                         lblExpression.Text = $"{num1} × {num2} = ";
                         lblResult.Text = $"{num1 * num2}";
+                        num1 = 0;
+                        num2 = 0;
                         break;
                     case 4:
                         if(num2 != 0)
                         {
                             lblExpression.Text = $"{num1} ÷ {num2} = ";
                             lblResult.Text = $"{num1 / num2}";
+                            num1 = 0;
+                            num2 = 0;
                             break;
                         }else
                         {
